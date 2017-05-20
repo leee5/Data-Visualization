@@ -1,0 +1,253 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+
+<p><span style="color: rgb(0, 0, 255);"><span style="font-size: 14px;">&bull; </span></span><strong><span style="color: rgb(0, 128, 0);"><span style="font-size: 14px;">Cambodia, 1974 - 1982</span></span></strong></p>
+
+<ul>
+	<li style="margin-left: 40px;">see the bars shrink between 1975 and 1979, the years when Cambodia was ruled by the Khmer Rouge
+</li>
+</ul>
+
+  <head>
+    
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='http://dimplejs.org/dist/dimple.v2.1.0.min.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart29ac3f7e3e2e' class = 'rChart dimple'></div>    
+    <script type="text/javascript">
+  var opts = {
+ "dom": "chart29ac3f7e3e2e",
+"width":    800,
+"height":    400,
+"xAxis": {
+ "type": "addMeasureAxis",
+"showPercent": false,
+"overrideMax": 6.5e+05,
+"overrideMin": -6.5e+05 
+},
+"yAxis": {
+ "type": "addCategoryAxis",
+"showPercent": false,
+"orderRule": "ord" 
+},
+"zAxis": [],
+"colorAxis": {
+ "type": "addColorAxis",
+"colorSeries": "gencode",
+"palette": [ "darkorange", "chartreuse" ] 
+},
+"defaultColors": [],
+"layers": [],
+"legend": {
+ "x":     60,
+"y":     10,
+"width":    700,
+"height":     20,
+"horizontalAlign": "right" 
+},
+"x": "Population",
+"y": "Age",
+"groups": "Gender",
+"type": "bar",
+"storyboard": "Year",
+"id": "chart29ac3f7e3e2e" 
+},
+    data = [{"Age":"0-4","ord":1,"Year":1974,"Gender":"Male","Population":-608623,"gencode":1},{"Age":"5-9","ord":2,"Year":1974,"Gender":"Male","Population":-540011,"gencode":1},{"Age":"10-14","ord":3,"Year":1974,"Gender":"Male","Population":-515082,"gencode":1},{"Age":"15-19","ord":4,"Year":1974,"Gender":"Male","Population":-434474,"gencode":1},{"Age":"20-24","ord":5,"Year":1974,"Gender":"Male","Population":-338748,"gencode":1},{"Age":"25-29","ord":6,"Year":1974,"Gender":"Male","Population":-256366,"gencode":1},{"Age":"30-34","ord":7,"Year":1974,"Gender":"Male","Population":-217166,"gencode":1},{"Age":"35-39","ord":8,"Year":1974,"Gender":"Male","Population":-191338,"gencode":1},{"Age":"40-44","ord":9,"Year":1974,"Gender":"Male","Population":-165476,"gencode":1},{"Age":"45-49","ord":10,"Year":1974,"Gender":"Male","Population":-135867,"gencode":1},{"Age":"50-54","ord":11,"Year":1974,"Gender":"Male","Population":-107751,"gencode":1},{"Age":"55-59","ord":12,"Year":1974,"Gender":"Male","Population":-87570,"gencode":1},{"Age":"60-64","ord":13,"Year":1974,"Gender":"Male","Population":-67250,"gencode":1},{"Age":"65-69","ord":14,"Year":1974,"Gender":"Male","Population":-46329,"gencode":1},{"Age":"70-74","ord":15,"Year":1974,"Gender":"Male","Population":-27936,"gencode":1},{"Age":"75-79","ord":16,"Year":1974,"Gender":"Male","Population":-13373,"gencode":1},{"Age":"80-84","ord":17,"Year":1974,"Gender":"Male","Population":-4609,"gencode":1},{"Age":"85-89","ord":18,"Year":1974,"Gender":"Male","Population":-1037,"gencode":1},{"Age":"90-94","ord":19,"Year":1974,"Gender":"Male","Population":-180,"gencode":1},{"Age":"95-99","ord":20,"Year":1974,"Gender":"Male","Population":-14,"gencode":1},{"Age":"100+","ord":21,"Year":1974,"Gender":"Male","Population":-2,"gencode":1},{"Age":"0-4","ord":22,"Year":1975,"Gender":"Male","Population":-581152,"gencode":1},{"Age":"5-9","ord":23,"Year":1975,"Gender":"Male","Population":-535433,"gencode":1},{"Age":"10-14","ord":24,"Year":1975,"Gender":"Male","Population":-509916,"gencode":1},{"Age":"15-19","ord":25,"Year":1975,"Gender":"Male","Population":-424559,"gencode":1},{"Age":"20-24","ord":26,"Year":1975,"Gender":"Male","Population":-329056,"gencode":1},{"Age":"25-29","ord":27,"Year":1975,"Gender":"Male","Population":-251083,"gencode":1},{"Age":"30-34","ord":28,"Year":1975,"Gender":"Male","Population":-206319,"gencode":1},{"Age":"35-39","ord":29,"Year":1975,"Gender":"Male","Population":-183404,"gencode":1},{"Age":"40-44","ord":30,"Year":1975,"Gender":"Male","Population":-157482,"gencode":1},{"Age":"45-49","ord":31,"Year":1975,"Gender":"Male","Population":-131495,"gencode":1},{"Age":"50-54","ord":32,"Year":1975,"Gender":"Male","Population":-109346,"gencode":1},{"Age":"55-59","ord":33,"Year":1975,"Gender":"Male","Population":-86758,"gencode":1},{"Age":"60-64","ord":34,"Year":1975,"Gender":"Male","Population":-67598,"gencode":1},{"Age":"65-69","ord":35,"Year":1975,"Gender":"Male","Population":-46073,"gencode":1},{"Age":"70-74","ord":36,"Year":1975,"Gender":"Male","Population":-27674,"gencode":1},{"Age":"75-79","ord":37,"Year":1975,"Gender":"Male","Population":-13132,"gencode":1},{"Age":"80-84","ord":38,"Year":1975,"Gender":"Male","Population":-4477,"gencode":1},{"Age":"85-89","ord":39,"Year":1975,"Gender":"Male","Population":-975,"gencode":1},{"Age":"90-94","ord":40,"Year":1975,"Gender":"Male","Population":-160,"gencode":1},{"Age":"95-99","ord":41,"Year":1975,"Gender":"Male","Population":-14,"gencode":1},{"Age":"100+","ord":42,"Year":1975,"Gender":"Male","Population":-1,"gencode":1},{"Age":"0-4","ord":43,"Year":1976,"Gender":"Male","Population":-528935,"gencode":1},{"Age":"5-9","ord":44,"Year":1976,"Gender":"Male","Population":-528754,"gencode":1},{"Age":"10-14","ord":45,"Year":1976,"Gender":"Male","Population":-500775,"gencode":1},{"Age":"15-19","ord":46,"Year":1976,"Gender":"Male","Population":-407598,"gencode":1},{"Age":"20-24","ord":47,"Year":1976,"Gender":"Male","Population":-301623,"gencode":1},{"Age":"25-29","ord":48,"Year":1976,"Gender":"Male","Population":-234401,"gencode":1},{"Age":"30-34","ord":49,"Year":1976,"Gender":"Male","Population":-187994,"gencode":1},{"Age":"35-39","ord":50,"Year":1976,"Gender":"Male","Population":-166919,"gencode":1},{"Age":"40-44","ord":51,"Year":1976,"Gender":"Male","Population":-143003,"gencode":1},{"Age":"45-49","ord":52,"Year":1976,"Gender":"Male","Population":-120437,"gencode":1},{"Age":"50-54","ord":53,"Year":1976,"Gender":"Male","Population":-109665,"gencode":1},{"Age":"55-59","ord":54,"Year":1976,"Gender":"Male","Population":-86027,"gencode":1},{"Age":"60-64","ord":55,"Year":1976,"Gender":"Male","Population":-67378,"gencode":1},{"Age":"65-69","ord":56,"Year":1976,"Gender":"Male","Population":-45581,"gencode":1},{"Age":"70-74","ord":57,"Year":1976,"Gender":"Male","Population":-27087,"gencode":1},{"Age":"75-79","ord":58,"Year":1976,"Gender":"Male","Population":-12664,"gencode":1},{"Age":"80-84","ord":59,"Year":1976,"Gender":"Male","Population":-4223,"gencode":1},{"Age":"85-89","ord":60,"Year":1976,"Gender":"Male","Population":-891,"gencode":1},{"Age":"90-94","ord":61,"Year":1976,"Gender":"Male","Population":-134,"gencode":1},{"Age":"95-99","ord":62,"Year":1976,"Gender":"Male","Population":-12,"gencode":1},{"Age":"100+","ord":63,"Year":1976,"Gender":"Male","Population":-0,"gencode":1},{"Age":"0-4","ord":64,"Year":1977,"Gender":"Male","Population":-484661,"gencode":1},{"Age":"5-9","ord":65,"Year":1977,"Gender":"Male","Population":-521551,"gencode":1},{"Age":"10-14","ord":66,"Year":1977,"Gender":"Male","Population":-493157,"gencode":1},{"Age":"15-19","ord":67,"Year":1977,"Gender":"Male","Population":-400331,"gencode":1},{"Age":"20-24","ord":68,"Year":1977,"Gender":"Male","Population":-271002,"gencode":1},{"Age":"25-29","ord":69,"Year":1977,"Gender":"Male","Population":-219784,"gencode":1},{"Age":"30-34","ord":70,"Year":1977,"Gender":"Male","Population":-171096,"gencode":1},{"Age":"35-39","ord":71,"Year":1977,"Gender":"Male","Population":-151852,"gencode":1},{"Age":"40-44","ord":72,"Year":1977,"Gender":"Male","Population":-129611,"gencode":1},{"Age":"45-49","ord":73,"Year":1977,"Gender":"Male","Population":-110231,"gencode":1},{"Age":"50-54","ord":74,"Year":1977,"Gender":"Male","Population":-108289,"gencode":1},{"Age":"55-59","ord":75,"Year":1977,"Gender":"Male","Population":-86166,"gencode":1},{"Age":"60-64","ord":76,"Year":1977,"Gender":"Male","Population":-66985,"gencode":1},{"Age":"65-69","ord":77,"Year":1977,"Gender":"Male","Population":-45337,"gencode":1},{"Age":"70-74","ord":78,"Year":1977,"Gender":"Male","Population":-26652,"gencode":1},{"Age":"75-79","ord":79,"Year":1977,"Gender":"Male","Population":-12304,"gencode":1},{"Age":"80-84","ord":80,"Year":1977,"Gender":"Male","Population":-4031,"gencode":1},{"Age":"85-89","ord":81,"Year":1977,"Gender":"Male","Population":-826,"gencode":1},{"Age":"90-94","ord":82,"Year":1977,"Gender":"Male","Population":-114,"gencode":1},{"Age":"95-99","ord":83,"Year":1977,"Gender":"Male","Population":-10,"gencode":1},{"Age":"100+","ord":84,"Year":1977,"Gender":"Male","Population":-1,"gencode":1},{"Age":"0-4","ord":85,"Year":1978,"Gender":"Male","Population":-441210,"gencode":1},{"Age":"5-9","ord":86,"Year":1978,"Gender":"Male","Population":-512327,"gencode":1},{"Age":"10-14","ord":87,"Year":1978,"Gender":"Male","Population":-484171,"gencode":1},{"Age":"15-19","ord":88,"Year":1978,"Gender":"Male","Population":-390796,"gencode":1},{"Age":"20-24","ord":89,"Year":1978,"Gender":"Male","Population":-235223,"gencode":1},{"Age":"25-29","ord":90,"Year":1978,"Gender":"Male","Population":-206917,"gencode":1},{"Age":"30-34","ord":91,"Year":1978,"Gender":"Male","Population":-161018,"gencode":1},{"Age":"35-39","ord":92,"Year":1978,"Gender":"Male","Population":-141141,"gencode":1},{"Age":"40-44","ord":93,"Year":1978,"Gender":"Male","Population":-121511,"gencode":1},{"Age":"45-49","ord":94,"Year":1978,"Gender":"Male","Population":-107002,"gencode":1},{"Age":"50-54","ord":95,"Year":1978,"Gender":"Male","Population":-104566,"gencode":1},{"Age":"55-59","ord":96,"Year":1978,"Gender":"Male","Population":-86830,"gencode":1},{"Age":"60-64","ord":97,"Year":1978,"Gender":"Male","Population":-66178,"gencode":1},{"Age":"65-69","ord":98,"Year":1978,"Gender":"Male","Population":-45217,"gencode":1},{"Age":"70-74","ord":99,"Year":1978,"Gender":"Male","Population":-26261,"gencode":1},{"Age":"75-79","ord":100,"Year":1978,"Gender":"Male","Population":-12010,"gencode":1},{"Age":"80-84","ord":101,"Year":1978,"Gender":"Male","Population":-3873,"gencode":1},{"Age":"85-89","ord":102,"Year":1978,"Gender":"Male","Population":-782,"gencode":1},{"Age":"90-94","ord":103,"Year":1978,"Gender":"Male","Population":-101,"gencode":1},{"Age":"95-99","ord":104,"Year":1978,"Gender":"Male","Population":-9,"gencode":1},{"Age":"100+","ord":105,"Year":1978,"Gender":"Male","Population":-0,"gencode":1},{"Age":"0-4","ord":106,"Year":1979,"Gender":"Male","Population":-437855,"gencode":1},{"Age":"5-9","ord":107,"Year":1979,"Gender":"Male","Population":-502672,"gencode":1},{"Age":"10-14","ord":108,"Year":1979,"Gender":"Male","Population":-479834,"gencode":1},{"Age":"15-19","ord":109,"Year":1979,"Gender":"Male","Population":-399751,"gencode":1},{"Age":"20-24","ord":110,"Year":1979,"Gender":"Male","Population":-221430,"gencode":1},{"Age":"25-29","ord":111,"Year":1979,"Gender":"Male","Population":-199539,"gencode":1},{"Age":"30-34","ord":112,"Year":1979,"Gender":"Male","Population":-160419,"gencode":1},{"Age":"35-39","ord":113,"Year":1979,"Gender":"Male","Population":-137094,"gencode":1},{"Age":"40-44","ord":114,"Year":1979,"Gender":"Male","Population":-120436,"gencode":1},{"Age":"45-49","ord":115,"Year":1979,"Gender":"Male","Population":-106508,"gencode":1},{"Age":"50-54","ord":116,"Year":1979,"Gender":"Male","Population":-101928,"gencode":1},{"Age":"55-59","ord":117,"Year":1979,"Gender":"Male","Population":-88017,"gencode":1},{"Age":"60-64","ord":118,"Year":1979,"Gender":"Male","Population":-65334,"gencode":1},{"Age":"65-69","ord":119,"Year":1979,"Gender":"Male","Population":-45357,"gencode":1},{"Age":"70-74","ord":120,"Year":1979,"Gender":"Male","Population":-26033,"gencode":1},{"Age":"75-79","ord":121,"Year":1979,"Gender":"Male","Population":-11846,"gencode":1},{"Age":"80-84","ord":122,"Year":1979,"Gender":"Male","Population":-3774,"gencode":1},{"Age":"85-89","ord":123,"Year":1979,"Gender":"Male","Population":-749,"gencode":1},{"Age":"90-94","ord":124,"Year":1979,"Gender":"Male","Population":-92,"gencode":1},{"Age":"95-99","ord":125,"Year":1979,"Gender":"Male","Population":-9,"gencode":1},{"Age":"100+","ord":126,"Year":1979,"Gender":"Male","Population":-0,"gencode":1},{"Age":"0-4","ord":127,"Year":1980,"Gender":"Male","Population":-492271,"gencode":1},{"Age":"5-9","ord":128,"Year":1980,"Gender":"Male","Population":-479810,"gencode":1},{"Age":"10-14","ord":129,"Year":1980,"Gender":"Male","Population":-482587,"gencode":1},{"Age":"15-19","ord":130,"Year":1980,"Gender":"Male","Population":-423367,"gencode":1},{"Age":"20-24","ord":131,"Year":1980,"Gender":"Male","Population":-237885,"gencode":1},{"Age":"25-29","ord":132,"Year":1980,"Gender":"Male","Population":-200138,"gencode":1},{"Age":"30-34","ord":133,"Year":1980,"Gender":"Male","Population":-165965,"gencode":1},{"Age":"35-39","ord":134,"Year":1980,"Gender":"Male","Population":-137217,"gencode":1},{"Age":"40-44","ord":135,"Year":1980,"Gender":"Male","Population":-121839,"gencode":1},{"Age":"45-49","ord":136,"Year":1980,"Gender":"Male","Population":-105540,"gencode":1},{"Age":"50-54","ord":137,"Year":1980,"Gender":"Male","Population":-98687,"gencode":1},{"Age":"55-59","ord":138,"Year":1980,"Gender":"Male","Population":-89651,"gencode":1},{"Age":"60-64","ord":139,"Year":1980,"Gender":"Male","Population":-65164,"gencode":1},{"Age":"65-69","ord":140,"Year":1980,"Gender":"Male","Population":-46003,"gencode":1},{"Age":"70-74","ord":141,"Year":1980,"Gender":"Male","Population":-26254,"gencode":1},{"Age":"75-79","ord":142,"Year":1980,"Gender":"Male","Population":-11958,"gencode":1},{"Age":"80-84","ord":143,"Year":1980,"Gender":"Male","Population":-3801,"gencode":1},{"Age":"85-89","ord":144,"Year":1980,"Gender":"Male","Population":-743,"gencode":1},{"Age":"90-94","ord":145,"Year":1980,"Gender":"Male","Population":-91,"gencode":1},{"Age":"95-99","ord":146,"Year":1980,"Gender":"Male","Population":-7,"gencode":1},{"Age":"100+","ord":147,"Year":1980,"Gender":"Male","Population":-0,"gencode":1},{"Age":"0-4","ord":148,"Year":1981,"Gender":"Male","Population":-568557,"gencode":1},{"Age":"5-9","ord":149,"Year":1981,"Gender":"Male","Population":-442616,"gencode":1},{"Age":"10-14","ord":150,"Year":1981,"Gender":"Male","Population":-484340,"gencode":1},{"Age":"15-19","ord":151,"Year":1981,"Gender":"Male","Population":-436764,"gencode":1},{"Age":"20-24","ord":152,"Year":1981,"Gender":"Male","Population":-268030,"gencode":1},{"Age":"25-29","ord":153,"Year":1981,"Gender":"Male","Population":-200480,"gencode":1},{"Age":"30-34","ord":154,"Year":1981,"Gender":"Male","Population":-172217,"gencode":1},{"Age":"35-39","ord":155,"Year":1981,"Gender":"Male","Population":-138689,"gencode":1},{"Age":"40-44","ord":156,"Year":1981,"Gender":"Male","Population":-123298,"gencode":1},{"Age":"45-49","ord":157,"Year":1981,"Gender":"Male","Population":-106017,"gencode":1},{"Age":"50-54","ord":158,"Year":1981,"Gender":"Male","Population":-96264,"gencode":1},{"Age":"55-59","ord":159,"Year":1981,"Gender":"Male","Population":-90856,"gencode":1},{"Age":"60-64","ord":160,"Year":1981,"Gender":"Male","Population":-65893,"gencode":1},{"Age":"65-69","ord":161,"Year":1981,"Gender":"Male","Population":-46959,"gencode":1},{"Age":"70-74","ord":162,"Year":1981,"Gender":"Male","Population":-26919,"gencode":1},{"Age":"75-79","ord":163,"Year":1981,"Gender":"Male","Population":-12322,"gencode":1},{"Age":"80-84","ord":164,"Year":1981,"Gender":"Male","Population":-3936,"gencode":1},{"Age":"85-89","ord":165,"Year":1981,"Gender":"Male","Population":-764,"gencode":1},{"Age":"90-94","ord":166,"Year":1981,"Gender":"Male","Population":-92,"gencode":1},{"Age":"95-99","ord":167,"Year":1981,"Gender":"Male","Population":-7,"gencode":1},{"Age":"100+","ord":168,"Year":1981,"Gender":"Male","Population":-0,"gencode":1},{"Age":"0-4","ord":169,"Year":1982,"Gender":"Male","Population":-647445,"gencode":1},{"Age":"5-9","ord":170,"Year":1982,"Gender":"Male","Population":-410537,"gencode":1},{"Age":"10-14","ord":171,"Year":1982,"Gender":"Male","Population":-485591,"gencode":1},{"Age":"15-19","ord":172,"Year":1982,"Gender":"Male","Population":-443634,"gencode":1},{"Age":"20-24","ord":173,"Year":1982,"Gender":"Male","Population":-309223,"gencode":1},{"Age":"25-29","ord":174,"Year":1982,"Gender":"Male","Population":-198802,"gencode":1},{"Age":"30-34","ord":175,"Year":1982,"Gender":"Male","Population":-179923,"gencode":1},{"Age":"35-39","ord":176,"Year":1982,"Gender":"Male","Population":-140404,"gencode":1},{"Age":"40-44","ord":177,"Year":1982,"Gender":"Male","Population":-125126,"gencode":1},{"Age":"45-49","ord":178,"Year":1982,"Gender":"Male","Population":-106720,"gencode":1},{"Age":"50-54","ord":179,"Year":1982,"Gender":"Male","Population":-95553,"gencode":1},{"Age":"55-59","ord":180,"Year":1982,"Gender":"Male","Population":-90698,"gencode":1},{"Age":"60-64","ord":181,"Year":1982,"Gender":"Male","Population":-67545,"gencode":1},{"Age":"65-69","ord":182,"Year":1982,"Gender":"Male","Population":-47955,"gencode":1},{"Age":"70-74","ord":183,"Year":1982,"Gender":"Male","Population":-27857,"gencode":1},{"Age":"75-79","ord":184,"Year":1982,"Gender":"Male","Population":-12844,"gencode":1},{"Age":"80-84","ord":185,"Year":1982,"Gender":"Male","Population":-4141,"gencode":1},{"Age":"85-89","ord":186,"Year":1982,"Gender":"Male","Population":-808,"gencode":1},{"Age":"90-94","ord":187,"Year":1982,"Gender":"Male","Population":-94,"gencode":1},{"Age":"95-99","ord":188,"Year":1982,"Gender":"Male","Population":-7,"gencode":1},{"Age":"100+","ord":189,"Year":1982,"Gender":"Male","Population":-1,"gencode":1},{"Age":"0-4","ord":1,"Year":1974,"Gender":"Female","Population":617749,"gencode":2},{"Age":"5-9","ord":2,"Year":1974,"Gender":"Female","Population":543403,"gencode":2},{"Age":"10-14","ord":3,"Year":1974,"Gender":"Female","Population":506111,"gencode":2},{"Age":"15-19","ord":4,"Year":1974,"Gender":"Female","Population":432775,"gencode":2},{"Age":"20-24","ord":5,"Year":1974,"Gender":"Female","Population":352359,"gencode":2},{"Age":"25-29","ord":6,"Year":1974,"Gender":"Female","Population":268969,"gencode":2},{"Age":"30-34","ord":7,"Year":1974,"Gender":"Female","Population":229386,"gencode":2},{"Age":"35-39","ord":8,"Year":1974,"Gender":"Female","Population":203796,"gencode":2},{"Age":"40-44","ord":9,"Year":1974,"Gender":"Female","Population":174321,"gencode":2},{"Age":"45-49","ord":10,"Year":1974,"Gender":"Female","Population":146873,"gencode":2},{"Age":"50-54","ord":11,"Year":1974,"Gender":"Female","Population":116574,"gencode":2},{"Age":"55-59","ord":12,"Year":1974,"Gender":"Female","Population":93463,"gencode":2},{"Age":"60-64","ord":13,"Year":1974,"Gender":"Female","Population":70827,"gencode":2},{"Age":"65-69","ord":14,"Year":1974,"Gender":"Female","Population":47620,"gencode":2},{"Age":"70-74","ord":15,"Year":1974,"Gender":"Female","Population":28084,"gencode":2},{"Age":"75-79","ord":16,"Year":1974,"Gender":"Female","Population":13184,"gencode":2},{"Age":"80-84","ord":17,"Year":1974,"Gender":"Female","Population":4572,"gencode":2},{"Age":"85-89","ord":18,"Year":1974,"Gender":"Female","Population":1065,"gencode":2},{"Age":"90-94","ord":19,"Year":1974,"Gender":"Female","Population":189,"gencode":2},{"Age":"95-99","ord":20,"Year":1974,"Gender":"Female","Population":20,"gencode":2},{"Age":"100+","ord":21,"Year":1974,"Gender":"Female","Population":1,"gencode":2},{"Age":"0-4","ord":22,"Year":1975,"Gender":"Female","Population":590406,"gencode":2},{"Age":"5-9","ord":23,"Year":1975,"Gender":"Female","Population":540900,"gencode":2},{"Age":"10-14","ord":24,"Year":1975,"Gender":"Female","Population":504735,"gencode":2},{"Age":"15-19","ord":25,"Year":1975,"Gender":"Female","Population":434044,"gencode":2},{"Age":"20-24","ord":26,"Year":1975,"Gender":"Female","Population":358216,"gencode":2},{"Age":"25-29","ord":27,"Year":1975,"Gender":"Female","Population":274232,"gencode":2},{"Age":"30-34","ord":28,"Year":1975,"Gender":"Female","Population":227233,"gencode":2},{"Age":"35-39","ord":29,"Year":1975,"Gender":"Female","Population":202877,"gencode":2},{"Age":"40-44","ord":30,"Year":1975,"Gender":"Female","Population":174532,"gencode":2},{"Age":"45-49","ord":31,"Year":1975,"Gender":"Female","Population":148120,"gencode":2},{"Age":"50-54","ord":32,"Year":1975,"Gender":"Female","Population":120660,"gencode":2},{"Age":"55-59","ord":33,"Year":1975,"Gender":"Female","Population":93666,"gencode":2},{"Age":"60-64","ord":34,"Year":1975,"Gender":"Female","Population":71545,"gencode":2},{"Age":"65-69","ord":35,"Year":1975,"Gender":"Female","Population":47135,"gencode":2},{"Age":"70-74","ord":36,"Year":1975,"Gender":"Female","Population":27474,"gencode":2},{"Age":"75-79","ord":37,"Year":1975,"Gender":"Female","Population":12668,"gencode":2},{"Age":"80-84","ord":38,"Year":1975,"Gender":"Female","Population":4256,"gencode":2},{"Age":"85-89","ord":39,"Year":1975,"Gender":"Female","Population":951,"gencode":2},{"Age":"90-94","ord":40,"Year":1975,"Gender":"Female","Population":157,"gencode":2},{"Age":"95-99","ord":41,"Year":1975,"Gender":"Female","Population":16,"gencode":2},{"Age":"100+","ord":42,"Year":1975,"Gender":"Female","Population":1,"gencode":2},{"Age":"0-4","ord":43,"Year":1976,"Gender":"Female","Population":535640,"gencode":2},{"Age":"5-9","ord":44,"Year":1976,"Gender":"Female","Population":536121,"gencode":2},{"Age":"10-14","ord":45,"Year":1976,"Gender":"Female","Population":499618,"gencode":2},{"Age":"15-19","ord":46,"Year":1976,"Gender":"Female","Population":432501,"gencode":2},{"Age":"20-24","ord":47,"Year":1976,"Gender":"Female","Population":356239,"gencode":2},{"Age":"25-29","ord":48,"Year":1976,"Gender":"Female","Population":275519,"gencode":2},{"Age":"30-34","ord":49,"Year":1976,"Gender":"Female","Population":222963,"gencode":2},{"Age":"35-39","ord":50,"Year":1976,"Gender":"Female","Population":198110,"gencode":2},{"Age":"40-44","ord":51,"Year":1976,"Gender":"Female","Population":171406,"gencode":2},{"Age":"45-49","ord":52,"Year":1976,"Gender":"Female","Population":147003,"gencode":2},{"Age":"50-54","ord":53,"Year":1976,"Gender":"Female","Population":124504,"gencode":2},{"Age":"55-59","ord":54,"Year":1976,"Gender":"Female","Population":94316,"gencode":2},{"Age":"60-64","ord":55,"Year":1976,"Gender":"Female","Population":71874,"gencode":2},{"Age":"65-69","ord":56,"Year":1976,"Gender":"Female","Population":46478,"gencode":2},{"Age":"70-74","ord":57,"Year":1976,"Gender":"Female","Population":26599,"gencode":2},{"Age":"75-79","ord":58,"Year":1976,"Gender":"Female","Population":11962,"gencode":2},{"Age":"80-84","ord":59,"Year":1976,"Gender":"Female","Population":3857,"gencode":2},{"Age":"85-89","ord":60,"Year":1976,"Gender":"Female","Population":815,"gencode":2},{"Age":"90-94","ord":61,"Year":1976,"Gender":"Female","Population":123,"gencode":2},{"Age":"95-99","ord":62,"Year":1976,"Gender":"Female","Population":12,"gencode":2},{"Age":"100+","ord":63,"Year":1976,"Gender":"Female","Population":1,"gencode":2},{"Age":"0-4","ord":64,"Year":1977,"Gender":"Female","Population":488981,"gencode":2},{"Age":"5-9","ord":65,"Year":1977,"Gender":"Female","Population":530671,"gencode":2},{"Age":"10-14","ord":66,"Year":1977,"Gender":"Female","Population":495619,"gencode":2},{"Age":"15-19","ord":67,"Year":1977,"Gender":"Female","Population":434390,"gencode":2},{"Age":"20-24","ord":68,"Year":1977,"Gender":"Female","Population":350643,"gencode":2},{"Age":"25-29","ord":69,"Year":1977,"Gender":"Female","Population":278980,"gencode":2},{"Age":"30-34","ord":70,"Year":1977,"Gender":"Female","Population":218390,"gencode":2},{"Age":"35-39","ord":71,"Year":1977,"Gender":"Female","Population":193840,"gencode":2},{"Age":"40-44","ord":72,"Year":1977,"Gender":"Female","Population":167550,"gencode":2},{"Age":"45-49","ord":73,"Year":1977,"Gender":"Female","Population":145906,"gencode":2},{"Age":"50-54","ord":74,"Year":1977,"Gender":"Female","Population":127785,"gencode":2},{"Age":"55-59","ord":75,"Year":1977,"Gender":"Female","Population":96318,"gencode":2},{"Age":"60-64","ord":76,"Year":1977,"Gender":"Female","Population":72458,"gencode":2},{"Age":"65-69","ord":77,"Year":1977,"Gender":"Female","Population":46483,"gencode":2},{"Age":"70-74","ord":78,"Year":1977,"Gender":"Female","Population":26182,"gencode":2},{"Age":"75-79","ord":79,"Year":1977,"Gender":"Female","Population":11564,"gencode":2},{"Age":"80-84","ord":80,"Year":1977,"Gender":"Female","Population":3629,"gencode":2},{"Age":"85-89","ord":81,"Year":1977,"Gender":"Female","Population":733,"gencode":2},{"Age":"90-94","ord":82,"Year":1977,"Gender":"Female","Population":100,"gencode":2},{"Age":"95-99","ord":83,"Year":1977,"Gender":"Female","Population":11,"gencode":2},{"Age":"100+","ord":84,"Year":1977,"Gender":"Female","Population":0,"gencode":2},{"Age":"0-4","ord":85,"Year":1978,"Gender":"Female","Population":444836,"gencode":2},{"Age":"5-9","ord":86,"Year":1978,"Gender":"Female","Population":523776,"gencode":2},{"Age":"10-14","ord":87,"Year":1978,"Gender":"Female","Population":491218,"gencode":2},{"Age":"15-19","ord":88,"Year":1978,"Gender":"Female","Population":429933,"gencode":2},{"Age":"20-24","ord":89,"Year":1978,"Gender":"Female","Population":342047,"gencode":2},{"Age":"25-29","ord":90,"Year":1978,"Gender":"Female","Population":280975,"gencode":2},{"Age":"30-34","ord":91,"Year":1978,"Gender":"Female","Population":216618,"gencode":2},{"Age":"35-39","ord":92,"Year":1978,"Gender":"Female","Population":187989,"gencode":2},{"Age":"40-44","ord":93,"Year":1978,"Gender":"Female","Population":164490,"gencode":2},{"Age":"45-49","ord":94,"Year":1978,"Gender":"Female","Population":146760,"gencode":2},{"Age":"50-54","ord":95,"Year":1978,"Gender":"Female","Population":131272,"gencode":2},{"Age":"55-59","ord":96,"Year":1978,"Gender":"Female","Population":100313,"gencode":2},{"Age":"60-64","ord":97,"Year":1978,"Gender":"Female","Population":73100,"gencode":2},{"Age":"65-69","ord":98,"Year":1978,"Gender":"Female","Population":47010,"gencode":2},{"Age":"70-74","ord":99,"Year":1978,"Gender":"Female","Population":26096,"gencode":2},{"Age":"75-79","ord":100,"Year":1978,"Gender":"Female","Population":11405,"gencode":2},{"Age":"80-84","ord":101,"Year":1978,"Gender":"Female","Population":3519,"gencode":2},{"Age":"85-89","ord":102,"Year":1978,"Gender":"Female","Population":689,"gencode":2},{"Age":"90-94","ord":103,"Year":1978,"Gender":"Female","Population":89,"gencode":2},{"Age":"95-99","ord":104,"Year":1978,"Gender":"Female","Population":8,"gencode":2},{"Age":"100+","ord":105,"Year":1978,"Gender":"Female","Population":1,"gencode":2},{"Age":"0-4","ord":106,"Year":1979,"Gender":"Female","Population":441579,"gencode":2},{"Age":"5-9","ord":107,"Year":1979,"Gender":"Female","Population":514850,"gencode":2},{"Age":"10-14","ord":108,"Year":1979,"Gender":"Female","Population":489681,"gencode":2},{"Age":"15-19","ord":109,"Year":1979,"Gender":"Female","Population":431421,"gencode":2},{"Age":"20-24","ord":110,"Year":1979,"Gender":"Female","Population":339555,"gencode":2},{"Age":"25-29","ord":111,"Year":1979,"Gender":"Female","Population":285291,"gencode":2},{"Age":"30-34","ord":112,"Year":1979,"Gender":"Female","Population":219723,"gencode":2},{"Age":"35-39","ord":113,"Year":1979,"Gender":"Female","Population":185248,"gencode":2},{"Age":"40-44","ord":114,"Year":1979,"Gender":"Female","Population":163362,"gencode":2},{"Age":"45-49","ord":115,"Year":1979,"Gender":"Female","Population":146992,"gencode":2},{"Age":"50-54","ord":116,"Year":1979,"Gender":"Female","Population":133507,"gencode":2},{"Age":"55-59","ord":117,"Year":1979,"Gender":"Female","Population":104814,"gencode":2},{"Age":"60-64","ord":118,"Year":1979,"Gender":"Female","Population":74307,"gencode":2},{"Age":"65-69","ord":119,"Year":1979,"Gender":"Female","Population":48080,"gencode":2},{"Age":"70-74","ord":120,"Year":1979,"Gender":"Female","Population":26358,"gencode":2},{"Age":"75-79","ord":121,"Year":1979,"Gender":"Female","Population":11489,"gencode":2},{"Age":"80-84","ord":122,"Year":1979,"Gender":"Female","Population":3515,"gencode":2},{"Age":"85-89","ord":123,"Year":1979,"Gender":"Female","Population":672,"gencode":2},{"Age":"90-94","ord":124,"Year":1979,"Gender":"Female","Population":83,"gencode":2},{"Age":"95-99","ord":125,"Year":1979,"Gender":"Female","Population":7,"gencode":2},{"Age":"100+","ord":126,"Year":1979,"Gender":"Female","Population":1,"gencode":2},{"Age":"0-4","ord":127,"Year":1980,"Gender":"Female","Population":495645,"gencode":2},{"Age":"5-9","ord":128,"Year":1980,"Gender":"Female","Population":490751,"gencode":2},{"Age":"10-14","ord":129,"Year":1980,"Gender":"Female","Population":492575,"gencode":2},{"Age":"15-19","ord":130,"Year":1980,"Gender":"Female","Population":441402,"gencode":2},{"Age":"20-24","ord":131,"Year":1980,"Gender":"Female","Population":348361,"gencode":2},{"Age":"25-29","ord":132,"Year":1980,"Gender":"Female","Population":293890,"gencode":2},{"Age":"30-34","ord":133,"Year":1980,"Gender":"Female","Population":227723,"gencode":2},{"Age":"35-39","ord":134,"Year":1980,"Gender":"Female","Population":186526,"gencode":2},{"Age":"40-44","ord":135,"Year":1980,"Gender":"Female","Population":165255,"gencode":2},{"Age":"45-49","ord":136,"Year":1980,"Gender":"Female","Population":146528,"gencode":2},{"Age":"50-54","ord":137,"Year":1980,"Gender":"Female","Population":133330,"gencode":2},{"Age":"55-59","ord":138,"Year":1980,"Gender":"Female","Population":108522,"gencode":2},{"Age":"60-64","ord":139,"Year":1980,"Gender":"Female","Population":75957,"gencode":2},{"Age":"65-69","ord":140,"Year":1980,"Gender":"Female","Population":49745,"gencode":2},{"Age":"70-74","ord":141,"Year":1980,"Gender":"Female","Population":27072,"gencode":2},{"Age":"75-79","ord":142,"Year":1980,"Gender":"Female","Population":11856,"gencode":2},{"Age":"80-84","ord":143,"Year":1980,"Gender":"Female","Population":3630,"gencode":2},{"Age":"85-89","ord":144,"Year":1980,"Gender":"Female","Population":686,"gencode":2},{"Age":"90-94","ord":145,"Year":1980,"Gender":"Female","Population":83,"gencode":2},{"Age":"95-99","ord":146,"Year":1980,"Gender":"Female","Population":6,"gencode":2},{"Age":"100+","ord":147,"Year":1980,"Gender":"Female","Population":1,"gencode":2},{"Age":"0-4","ord":148,"Year":1981,"Gender":"Female","Population":571361,"gencode":2},{"Age":"5-9","ord":149,"Year":1981,"Gender":"Female","Population":451608,"gencode":2},{"Age":"10-14","ord":150,"Year":1981,"Gender":"Female","Population":494979,"gencode":2},{"Age":"15-19","ord":151,"Year":1981,"Gender":"Female","Population":448071,"gencode":2},{"Age":"20-24","ord":152,"Year":1981,"Gender":"Female","Population":363155,"gencode":2},{"Age":"25-29","ord":153,"Year":1981,"Gender":"Female","Population":302462,"gencode":2},{"Age":"30-34","ord":154,"Year":1981,"Gender":"Female","Population":237051,"gencode":2},{"Age":"35-39","ord":155,"Year":1981,"Gender":"Female","Population":189803,"gencode":2},{"Age":"40-44","ord":156,"Year":1981,"Gender":"Female","Population":167353,"gencode":2},{"Age":"45-49","ord":157,"Year":1981,"Gender":"Female","Population":146969,"gencode":2},{"Age":"50-54","ord":158,"Year":1981,"Gender":"Female","Population":133473,"gencode":2},{"Age":"55-59","ord":159,"Year":1981,"Gender":"Female","Population":112429,"gencode":2},{"Age":"60-64","ord":160,"Year":1981,"Gender":"Female","Population":78340,"gencode":2},{"Age":"65-69","ord":161,"Year":1981,"Gender":"Female","Population":51816,"gencode":2},{"Age":"70-74","ord":162,"Year":1981,"Gender":"Female","Population":28208,"gencode":2},{"Age":"75-79","ord":163,"Year":1981,"Gender":"Female","Population":12446,"gencode":2},{"Age":"80-84","ord":164,"Year":1981,"Gender":"Female","Population":3838,"gencode":2},{"Age":"85-89","ord":165,"Year":1981,"Gender":"Female","Population":723,"gencode":2},{"Age":"90-94","ord":166,"Year":1981,"Gender":"Female","Population":85,"gencode":2},{"Age":"95-99","ord":167,"Year":1981,"Gender":"Female","Population":5,"gencode":2},{"Age":"100+","ord":168,"Year":1981,"Gender":"Female","Population":1,"gencode":2},{"Age":"0-4","ord":169,"Year":1982,"Gender":"Female","Population":649068,"gencode":2},{"Age":"5-9","ord":170,"Year":1982,"Gender":"Female","Population":417612,"gencode":2},{"Age":"10-14","ord":171,"Year":1982,"Gender":"Female","Population":496692,"gencode":2},{"Age":"15-19","ord":172,"Year":1982,"Gender":"Female","Population":454158,"gencode":2},{"Age":"20-24","ord":173,"Year":1982,"Gender":"Female","Population":382619,"gencode":2},{"Age":"25-29","ord":174,"Year":1982,"Gender":"Female","Population":308880,"gencode":2},{"Age":"30-34","ord":175,"Year":1982,"Gender":"Female","Population":249018,"gencode":2},{"Age":"35-39","ord":176,"Year":1982,"Gender":"Female","Population":193077,"gencode":2},{"Age":"40-44","ord":177,"Year":1982,"Gender":"Female","Population":170130,"gencode":2},{"Age":"45-49","ord":178,"Year":1982,"Gender":"Female","Population":147532,"gencode":2},{"Age":"50-54","ord":179,"Year":1982,"Gender":"Female","Population":134239,"gencode":2},{"Age":"55-59","ord":180,"Year":1982,"Gender":"Female","Population":115698,"gencode":2},{"Age":"60-64","ord":181,"Year":1982,"Gender":"Female","Population":81585,"gencode":2},{"Age":"65-69","ord":182,"Year":1982,"Gender":"Female","Population":54033,"gencode":2},{"Age":"70-74","ord":183,"Year":1982,"Gender":"Female","Population":29690,"gencode":2},{"Age":"75-79","ord":184,"Year":1982,"Gender":"Female","Population":13195,"gencode":2},{"Age":"80-84","ord":185,"Year":1982,"Gender":"Female","Population":4116,"gencode":2},{"Age":"85-89","ord":186,"Year":1982,"Gender":"Female","Population":780,"gencode":2},{"Age":"90-94","ord":187,"Year":1982,"Gender":"Female","Population":90,"gencode":2},{"Age":"95-99","ord":188,"Year":1982,"Gender":"Female","Population":6,"gencode":2},{"Age":"100+","ord":189,"Year":1982,"Gender":"Female","Population":1,"gencode":2}];
+  var svg = dimple.newSvg("#" + opts.id, opts.width, opts.height);
+
+  var myChart = new dimple.chart(svg, data);
+  if (opts.bounds) {
+    myChart.setBounds(opts.bounds.x, opts.bounds.y, opts.bounds.width, opts.bounds.height);//myChart.setBounds(80, 30, 480, 330);
+  }
+  //dimple allows use of custom CSS with noFormats
+  if(opts.noFormats) { myChart.noFormats = opts.noFormats; };
+  //for markimekko and addAxis also have third parameter measure
+  //so need to evaluate if measure provided
+  
+  //function to build axes
+  function buildAxis(position,layer){
+    var axis;
+    var axisopts;
+    if (!layer[position+"Axis"]){
+      axisopts = opts[position+"Axis"];
+    } else axisopts = layer[position+"Axis"];
+    
+    if(axisopts.measure) {
+      axis = myChart[axisopts.type](position,layer[position],axisopts.measure);
+    } else {
+      axis = myChart[axisopts.type](position, layer[position]);
+    };
+    if(!(axisopts.type === "addPctAxis")) axis.showPercent = axisopts.showPercent;
+    if (axisopts.orderRule) axis.addOrderRule(axisopts.orderRule);
+    if (axisopts.grouporderRule) axis.addGroupOrderRule(axisopts.grouporderRule);  
+    if (axisopts.overrideMin) axis.overrideMin = axisopts.overrideMin;
+    if (axisopts.overrideMax) axis.overrideMax = axisopts.overrideMax;
+    if (axisopts.inputFormat) axis.dateParseFormat = axisopts.inputFormat;
+    if (axisopts.outputFormat) axis.tickFormat = axisopts.outputFormat;    
+    return axis;
+  };
+  
+  var c = null;
+  if(d3.keys(opts.colorAxis).length > 0) {
+    c = myChart[opts.colorAxis.type](opts.colorAxis.colorSeries,opts.colorAxis.palette) ;
+  }
+  
+  //allow manipulation of default colors to use with dimple
+  if(opts.defaultColors.length) {
+    opts.defaultColors = opts.defaultColors[0];
+    if (typeof(opts.defaultColors) == "function") {
+      //assume this is a d3 scale
+      //for now loop through first 20 but need a better way to handle
+      defaultColorsArray = [];
+      for (var n=0;n<20;n++) {
+        defaultColorsArray.push(opts.defaultColors(n));
+      };
+      opts.defaultColors = defaultColorsArray;
+    }
+    opts.defaultColors.forEach(function(d,i) {
+      opts.defaultColors[i] = new dimple.color(d);
+    })
+    myChart.defaultColors = opts.defaultColors;
+  }  
+  
+  //do series
+  //set up a function since same for each
+  //as of now we have x,y,groups,data,type in opts for primary layer
+  //and other layers reside in opts.layers
+  function buildSeries(layer, hidden){
+    //inherit from primary layer if not intentionally changed or xAxis, yAxis, zAxis null
+    if (!layer.xAxis) layer.xAxis = opts.xAxis;    
+    if (!layer.yAxis) layer.yAxis = opts.yAxis;
+    if (!layer.zAxis) layer.zAxis = opts.zAxis;
+    
+    var x = buildAxis("x", layer);
+    x.hidden = hidden;
+    
+    var y = buildAxis("y", layer);
+    y.hidden = hidden;
+    
+    //z for bubbles
+    var z = null;
+    if (!(typeof(layer.zAxis) === 'undefined') && layer.zAxis.type){
+      z = buildAxis("z", layer);
+    };
+    
+    //here think I need to evaluate group and if missing do null
+    //as the group argument
+    //if provided need to use groups from layer
+    var s = new dimple.series(myChart, null, x, y, z, c, null, dimple.plot[layer.type], dimple.aggregateMethod.avg, dimple.plot[layer.type].stacked);
+    
+    //as of v1.1.4 dimple can use different dataset for each series
+    if(layer.data){
+      //convert to an array of objects
+      //avoid lodash for now
+      datakeys = d3.keys(layer.data)
+      layer.dataarray = layer.data[datakeys[1]].map(function(d,i){
+        var tempobj = {}
+        datakeys.forEach(function(key){
+          tempobj[key] = layer.data[key][i]
+        })
+        return tempobj
+      })
+      s.data = layer.dataarray;
+    }
+    
+    //for measure axis dimple sorts at the series level not at axis level
+    ['x','y'].map(function(ax){
+      if( layer[ax + 'Axis'].type=="addMeasureAxis" && layer[ax + 'Axis'].orderRule ){
+        if( typeof layer[ax + 'Axis'].orderRule == "string" ){
+          s.addOrderRule( layer[ax + 'Axis'].orderRule );
+        } else if ( typeof layer[ax + 'Axis'].orderRule == "object" ) {
+          s._orderRules = layer[ax + 'Axis'].orderRule;
+        }
+      }
+    })
+    
+    if(layer.hasOwnProperty("groups")) {
+      s.categoryFields = (typeof layer.groups === "object") ? layer.groups : [layer.groups];
+      //series offers an aggregate method that we will also need to check if available
+      //options available are avg, count, max, min, sum
+    }
+    if (!(typeof(layer.aggregate) === 'undefined')) {
+      s.aggregate = eval(layer.aggregate);
+    }
+    if (!(typeof(layer.lineWeight) === 'undefined')) {
+      s.lineWeight = layer.lineWeight;
+    }
+    if (!(typeof(layer.lineMarkers) === 'undefined')) {
+      s.lineMarkers = layer.lineMarkers;
+    }
+    if (!(typeof(layer.barGap) === 'undefined')) {
+      s.barGap = layer.barGap;
+    }    
+    if (!(typeof(layer.interpolation) === 'undefined')) {
+      s.interpolation = layer.interpolation;
+    } 
+    
+    myChart.series.push(s);
+    
+    /*placeholder fix domain of primary scale for new series data
+    //not working right now but something like this
+    //for now just use overrideMin and overrideMax from rCharts
+    for( var i = 0; i<2; i++) {
+      if (!myChart.axes[i].overrideMin) {
+        myChart.series[0]._axisBounds(i==0?"x":"y").min = myChart.series[0]._axisBounds(i==0?"x":"y").min < s._axisBounds(i==0?"x":"y").min ? myChart.series[0]._axisBounds(i==0?"x":"y").min : s._axisBounds(i==0?"x":"y").min;
+      }
+      if (!myChart.axes[i].overrideMax) {  
+        myChart.series[0]._axisBounds(i==0?"x":"y")._max = myChart.series[0]._axisBounds(i==0?"x":"y").max > s._axisBounds(i==0?"x":"y").max ? myChart.series[0]._axisBounds(i==0?"x":"y").max : s._axisBounds(i==0?"x":"y").max;
+      }
+      myChart.axes[i]._update();
+    }
+    */
+      
+    
+    return s;
+  };
+  
+  buildSeries(opts, false);
+  if (opts.layers.length > 0) {
+    opts.layers.forEach(function(layer){
+      buildSeries(layer, true);
+    })
+  }
+  //unsure if this is best but if legend is provided (not empty) then evaluate
+  if(d3.keys(opts.legend).length > 0) {
+    var l =myChart.addLegend();
+    d3.keys(opts.legend).forEach(function(d){
+      l[d] = opts.legend[d];
+    });
+  }
+  //quick way to get this going but need to make this cleaner
+  if(opts.storyboard) {
+    myChart.setStoryboard(opts.storyboard);
+  };
+  myChart.draw();
+
+</script>
+    
+    
+                      <script>
+                        x._getFormat = function () {
+                        return function(d) {
+                        return d3.format(',.0f')(Math.abs(d) / 1000) + 'k';
+                         };
+                        };
+                      myChart.draw()
+                      </script>
+                          
+  </body>
+</html>
